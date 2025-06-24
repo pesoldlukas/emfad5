@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- EMFAD Brand Colors -->
+    <color name="emfad_blue">#2196F3</color>
+    <color name="emfad_blue_dark">#1976D2</color>
+    <color name="emfad_yellow">#FFEB3B</color>
+    <color name="emfad_yellow_dark">#FBC02D</color>
+
+    <!-- Background Colors -->
+    <color name="emfad_background">#121212</color>
+    <color name="emfad_surface">#1E1E1E</color>
+
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Legacy Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>

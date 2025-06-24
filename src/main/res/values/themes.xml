@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- EMFAD Base Theme - Simple compatibility theme for Compose -->
+    <style name="Theme.EMFAD" parent="android:Theme.Material">
+        <!-- Basic colors -->
+        <item name="android:colorPrimary">@color/emfad_blue</item>
+        <item name="android:colorPrimaryDark">@color/emfad_blue_dark</item>
+        <item name="android:colorAccent">@color/emfad_yellow</item>
+        <item name="android:colorBackground">@color/emfad_background</item>
+
+        <!-- Remove action bar for Compose -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/emfad_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Samsung S21 Ultra optimizations -->
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:hardwareAccelerated">true</item>
+    </style>
+
+    <!-- EMFAD Splash Screen Theme -->
+    <style name="Theme.EMFAD.SplashScreen" parent="Theme.EMFAD">
+        <item name="android:windowBackground">@color/emfad_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!-- Legacy theme for compatibility -->
+    <style name="Theme.EMFADAnalyzer" parent="Theme.EMFAD">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

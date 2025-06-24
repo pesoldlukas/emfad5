@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+    
+    <!-- EMFAD text -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,35 L40,35 L40,40 L25,40 L25,45 L38,45 L38,50 L25,50 L25,55 L40,55 L40,60 L20,60 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,35 L50,35 L50,55 L55,35 L60,35 L65,55 L65,35 L70,35 L70,60 L65,60 L60,45 L55,60 L50,60 L45,45 L45,60 L40,60 L40,35 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M75,35 L85,35 L85,40 L80,40 L80,55 L85,55 L85,60 L75,60 Z" />
+    
+    <!-- Signal waves -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M30,70 Q35,65 40,70 Q45,75 50,70 Q55,65 60,70 Q65,75 70,70"
+        android:strokeWidth="2"
+        android:strokeColor="#FFEB3B" />
+    
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M25,75 Q35,70 45,75 Q55,80 65,75 Q75,70 85,75"
+        android:strokeWidth="2"
+        android:strokeColor="#FFEB3B" />
+</vector>
